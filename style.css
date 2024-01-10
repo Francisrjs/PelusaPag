@@ -1,0 +1,121 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #1f2937;
+}
+.header,
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+  margin-bottom: 32px;
+  flex: 0 0 auto; /* Establece un tamaño inicial y no crece automáticamente */
+}
+.content_home {
+  flex: 1; /* Asegura que .content_home ocupe el espacio restante */
+}
+ul {
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  gap: 32px;
+}
+
+a,
+.content_ref {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.left-links .logo a {
+  font-size: 48px;
+  font-weight: bold bold;
+}
+.left-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+/* COMIENZO*/
+.content_home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 0 20px;
+  background-color: #1f2937;
+}
+.content_ref {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+}
+.title_ref {
+  font-size: 52px;
+}
+.content_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  /* border */
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+.sign_up {
+  margin-top: 10px;
+  width: 150px;
+  height: auto;
+  background-color: #3b82f6;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.content_info {
+  background-color: white;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_info p {
+  margin-top: 6px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+}
+.img {
+  width: 300px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  text-align: center;
+  font-family: Roboto;
+}
+.cards img {
+  /* border */
+  border-width: 2px;
+  border-style: solid;
+  border-color: #3b82f6;
+}
