@@ -119,3 +119,50 @@ a,
   border-style: solid;
   border-color: #3b82f6;
 }
+/*Quote*/
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: light italic;
+  font-weight: light;
+  color: #1f2937;
+  padding: 2em;
+}
+.quote p {
+  text-align: center;
+}
+.quote div {
+  font-weight: bold;
+  text-align: right;
+}
+/*Container sign*/
+.sign_container {
+  background: white;
+  display: flex;
+  padding: 2em 2em;
+  justify-content: center;
+}
+.sign_container .info {
+  background-color: #3882f6;
+  padding: 2em 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  display: flex;
+  gap: 10em;
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+}
+.info p {
+  font-weight: bold;
+  font-size: 26px;
+}
+.sign_container .sign_up {
+  border: 2px solid white;
+}
+/*Copyright*/
+.footer {
+  text-align: center;
+
+  color: white;
+}
